@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountDataAdministrator.Text" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="AccountDataDateOfBirth.Text" xml:space="preserve">
+    <value>Datum rođenja</value>
+  </data>
+  <data name="AccountDataEmail.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="AccountDataFirstName.Text" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="AccountDataJmbg.Text" xml:space="preserve">
+    <value>Jmbg</value>
+  </data>
+  <data name="AccountDataLastName.Text" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="AccountDataOldPassword.Text" xml:space="preserve">
+    <value>Stara lozinka</value>
+  </data>
+  <data name="AccountDataPassword.Text" xml:space="preserve">
+    <value>Nova lozinka</value>
+  </data>
+  <data name="AccountDataPasswordConfirmation.Text" xml:space="preserve">
+    <value>Potvrdite lozinku</value>
+  </data>
+  <data name="AccountDataPhoneNumber.Text" xml:space="preserve">
+    <value>Broj telefona</value>
+  </data>
+  <data name="AccountDataUsername.Text" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="AddNewAccountButton.Content" xml:space="preserve">
+    <value>Dodaj novog korisnika</value>
+  </data>
+  <data name="AddNewEquipmentButton.Content" xml:space="preserve">
+    <value>Dodaj novu opremu</value>
+  </data>
+  <data name="AddNewMemberButton.Content" xml:space="preserve">
+    <value>Dodaj novog člana</value>
+  </data>
+  <data name="AddNewPerformanceButton.Content" xml:space="preserve">
+    <value>Dodaj novi nastup</value>
+  </data>
+  <data name="AdminAllUsersAdministratorColumn.Header" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="AdminAllUsersEditColumn.Header" xml:space="preserve">
+    <value>Uredi</value>
+  </data>
+  <data name="AdminAllUsersLastNameColumn.Header" xml:space="preserve">
+    <value>Prezime</value>
+  </data>
+  <data name="AdminAllUsersNameColumn.Header" xml:space="preserve">
+    <value>Ime</value>
+  </data>
+  <data name="AdminAllUsersUsernameColumn.Header" xml:space="preserve">
+    <value>Korisničko ime</value>
+  </data>
+  <data name="BlueThemeRadioButton.Content" xml:space="preserve">
+    <value>Plava</value>
+  </data>
+  <data name="ChargeButton.Content" xml:space="preserve">
+    <value>Zaduži</value>
+  </data>
+  <data name="ChargedColumn.Header" xml:space="preserve">
+    <value>Razdužena</value>
+  </data>
+  <data name="ChargeEquipmentButton.Content" xml:space="preserve">
+    <value>Zaduži opremu</value>
+  </data>
+  <data name="ChargeError.Text" xml:space="preserve">
+    <value>Nije odabran korisnik ili oprema</value>
+  </data>
+  <data name="CyrillicLanguageRadioButton.Content" xml:space="preserve">
+    <value>Ћирилица</value>
+  </data>
+  <data name="DarkThemeRadioButton.Content" xml:space="preserve">
+    <value>Tamna</value>
+  </data>
+  <data name="DateFromColumn.Header" xml:space="preserve">
+    <value>Datum zaduženja</value>
+  </data>
+  <data name="DateToColumn.Header" xml:space="preserve">
+    <value>Datum razduženja</value>
+  </data>
+  <data name="DischargeButton.Content" xml:space="preserve">
+    <value>Razduži</value>
+  </data>
+  <data name="DischargeError.Text" xml:space="preserve">
+    <value>Nije odabrano zaduženje</value>
+  </data>
+  <data name="Equipment.Content" xml:space="preserve">
+    <value>Oprema</value>
+  </data>
+  <data name="EquipmentColumn.Header" xml:space="preserve">
+    <value>Oprema</value>
+  </data>
+  <data name="EquipmentComboBox.PlaceholderText" xml:space="preserve">
+    <value>Oprema</value>
+  </data>
+  <data name="EquipmentDescription.Text" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="EquipmentDescriptionColumn.Header" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="EquipmentName.Text" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="EquipmentNameColumn.Header" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="EquipmentSerialNumber.Text" xml:space="preserve">
+    <value>Serijski broj</value>
+  </data>
+  <data name="EquipmentSerialNumberColumn.Header" xml:space="preserve">
+    <value>Serijski broj</value>
+  </data>
+  <data name="ErrorMessage.Text" xml:space="preserve">
+    <value>Pogrešan unos</value>
+  </data>
+  <data name="Friends.Content" xml:space="preserve">
+    <value>Prijatelji</value>
+  </data>
+  <data name="HomeItem.Content" xml:space="preserve">
+    <value>Početna</value>
+  </data>
+  <data name="InProgress.Text" xml:space="preserve">
+    <value>Ova stranica je u fazi izrade</value>
+  </data>
+  <data name="KUDName.Text" xml:space="preserve">
+    <value>Kulturno umjetničko društvo "Sveti Sava" Svodna</value>
+  </data>
+  <data name="LanguageTextBlock.Text" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="LatinicLanguageRadioButton.Content" xml:space="preserve">
+    <value>Latinica</value>
+  </data>
+  <data name="LightThemeRadioButton.Content" xml:space="preserve">
+    <value>Svijetla</value>
+  </data>
+  <data name="LogOutPart.Content" xml:space="preserve">
+    <value>Odjavite se</value>
+  </data>
+  <data name="MemberColumn.Header" xml:space="preserve">
+    <value>Član</value>
+  </data>
+  <data name="MemberComboBox.PlaceholderText" xml:space="preserve">
+    <value>Član</value>
+  </data>
+  <data name="MemberGroup.Text" xml:space="preserve">
+    <value>Uzrasna grupa</value>
+  </data>
+  <data name="MemberGruopColumn.Header" xml:space="preserve">
+    <value>Uzrasna grupa</value>
+  </data>
+  <data name="Members.Content" xml:space="preserve">
+    <value>Članovi</value>
+  </data>
+  <data name="NavigationHeader.Content" xml:space="preserve">
+    <value>Meni</value>
+  </data>
+  <data name="PasswordChangePart.Content" xml:space="preserve">
+    <value>Promjena lozinke</value>
+  </data>
+  <data name="Payments.Content" xml:space="preserve">
+    <value>Plaćanja</value>
+  </data>
+  <data name="Performance.Content" xml:space="preserve">
+    <value>Nastupi</value>
+  </data>
+  <data name="PerformanceDate.Text" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="PerformanceLocation.Text" xml:space="preserve">
+    <value>Mjesto</value>
+  </data>
+  <data name="PerformanceName.Text" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="PerformancesDateColumn.Header" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="PerformancesLocationColumn.Header" xml:space="preserve">
+    <value>Mjesto</value>
+  </data>
+  <data name="PerformancesNameColumn.Header" xml:space="preserve">
+    <value>Naziv</value>
+  </data>
+  <data name="SaveAccountDataButton.Content" xml:space="preserve">
+    <value>Sačuvaj</value>
+  </data>
+  <data name="SettingsPart.Content" xml:space="preserve">
+    <value>Postavke</value>
+  </data>
+  <data name="Sponsors.Content" xml:space="preserve">
+    <value>Sponzori</value>
+  </data>
+  <data name="ThemeTextBlock.Text" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="UsersPart.Content" xml:space="preserve">
+    <value>Korisnici</value>
+  </data>
+  <data name="YourInfoPart.Content" xml:space="preserve">
+    <value>Lični podaci</value>
+  </data>
+</root>

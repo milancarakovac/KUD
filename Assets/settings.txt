@@ -1,0 +1,4 @@
+Server=localhost
+Database=kud
+Uid=root
+Pwd=root
